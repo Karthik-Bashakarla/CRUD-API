@@ -1,2 +1,2 @@
 # CRUD-API
-A simple api built with node.js with basic CRUD operations
+A simple api built with node.js with basic CRUD operations (in progress)
