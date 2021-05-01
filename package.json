@@ -1,0 +1,17 @@
+{
+  "name": "node-practice",
+  "version": "1.0.0",
+  "description": "A Simple CRUD API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karthik Bashakarla",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "joi": "^17.4.0"
+  }
+}
