@@ -1,8 +1,12 @@
-const express = require("express");
-const Joi = require("joi");
+// Imports
+import Joi from "joi";
+import express from "express";
+
 const app = express();
 
+// Middleware
 app.use(express.json());
+app.use(helmet());
 
 let books = [
   { id: 1, name: "book1" },
