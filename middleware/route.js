@@ -13,7 +13,7 @@ let books = [
 // Event Listeners
 // GET Method to get list of all books
 
-const getBooks = (req, res) => {
+export const getBooks = (req, res) => {
   if (req.method === "GET" && books) {
     return res.send(books);
   } else {
@@ -22,7 +22,7 @@ const getBooks = (req, res) => {
 };
 
 // GET Method to get a particular book
-const getBook = (req, res) => {
+export const getBook = (req, res) => {
   const reqid = parseInt(req.params.id);
   const book = books.find((x) => x.id === reqid);
   if (book) {
@@ -33,7 +33,7 @@ const getBook = (req, res) => {
 };
 
 // POST Method to create a book in books collection
-const createBook = (rq, rs) => {
+export const createBook = (rq, rs) => {
   const schema = Joi.object({
     name: Joi.string().min(3).max(15).required(),
   });
@@ -52,5 +52,3 @@ const createBook = (rq, rs) => {
     rs.send(books);
   }
 };
-
-export const getBooks, getBook, createBook;

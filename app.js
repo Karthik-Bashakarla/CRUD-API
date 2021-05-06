@@ -1,5 +1,5 @@
 // Imports
-import { getBook, getBooks, createBook } from "./middleware/route.js";
+import { getBooks, getBook, createBook } from "./middleware/route.js";
 import helmet from "helmet";
 import express from "express";
 
