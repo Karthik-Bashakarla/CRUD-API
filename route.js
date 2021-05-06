@@ -45,7 +45,7 @@ route.post("/", (rq, rs) => {
     rs.send(error.details[0].message);
   } else {
     const new_book = {
-      id: newId,
+      id: books.length + 1,
       name: rq.body.name,
     };
 
@@ -54,4 +54,4 @@ route.post("/", (rq, rs) => {
   }
 });
 
-module.exports = route;
+export default route;
