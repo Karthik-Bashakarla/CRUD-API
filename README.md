@@ -1,4 +1,4 @@
-A simple CRUD API built with Node.js and Express.js
+A simple CRUD API built with Node.js and Express.js (in progress.....)
 
 Built endpoints for basic operations:
 
@@ -24,4 +24,6 @@ Endpoints:
  
  * GET /api/books/\<id\> - Fetches a book with a id = \<id\> from the collection.
 
-     
+  ### Future work:
+  
+  To create endpoints for update and delete operations.
