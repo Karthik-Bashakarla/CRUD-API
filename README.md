@@ -22,6 +22,6 @@ Endpoints:
    
  * GET /api/books - Fetches all the books from the collection.
  
- * GET /api/books/<id> - Fetches a book with a id = <id> from the collection.
+ * GET /api/books/\<id\> - Fetches a book with a id = \<id\> from the collection.
 
      
