@@ -10,7 +10,7 @@ Built endpoints for basic operations:
 
 Endpoints:
 
- * POST /api/books - Creates a book in books collection.
+ * POST /api/books - Creates a book in books collection.<br />
    Schema: The body of the post request should have the following schema,
    
    ```javascript
